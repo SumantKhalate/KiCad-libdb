@@ -1,0 +1,111 @@
+{
+    "meta": {
+        "version": 1.0
+    },
+    "name": "KiCad Library Database",
+    "description": "A KiCad library database with individual tables for each component type",
+    "source": {
+        "type": "odbc",
+        "dsn": "",
+        "username": "",
+        "password": "",
+        "timeout_seconds": 2,
+        "connection_string": "DSN=KiCad_libdb;"
+    },
+    "libraries": [
+        {
+            "name": "Resistors",
+            "table": "Resistors",
+            "key": "Part ID",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
+                    "show_name": true
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                    ,
+                    "show_name": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Resistance",
+                    "name": "Resistance",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Resistance Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Power Rating",
+                    "name": "Power Rating",
+                    "visible_on_add": true,
+                    "visible_in_chooser": false,
+                    "show_name": true
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+        {
+            "name": "Capacitors",
+            "table": "Capacitors",
+            "key": "Part ID",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Dielectric Type",
+                    "name": "Dielectric",
+                    "visible_on_add": true,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Voltage Rating",
+                    "name": "Voltage Rating",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        }
+    ]
+}
