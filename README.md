@@ -32,3 +32,5 @@
 1. [This](https://forum.kicad.info/t/kicad-the-case-for-database-driven-design/34621) forum page really helped me getting this up and running, a lot of useful information is available on this page.
 
 2. Kicad 7 Reference manual [Link](https://docs.kicad.org/master/en/eeschema/eeschema.html#database-libraries)
+
+3. Another great Youtube video explaning about the propertie mapping in detail by Christian Prather [Link](https://www.youtube.com/watch?v=r3PTyCH4PQk)
